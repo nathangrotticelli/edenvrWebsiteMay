@@ -4684,7 +4684,7 @@ Menu Mobile style's
 	}*/
 
     .dark-over-home-slider{
-    top:-10%;
+    top:-15%;
     background: url('../images/backgroundMain.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4698,7 +4698,7 @@ Menu Mobile style's
     display:block;
 }
 .link-down{
-    bottom:100px;
+    bottom:20%;
 }
 
 	/* #Menu background is not trasparent mobile fix

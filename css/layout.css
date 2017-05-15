@@ -2907,7 +2907,9 @@ font-size: 11px;
 	opacity:1;
 }
 
-
+#mobileArrow{
+    display:none;
+}
 
 .link-down{
 	position:absolute;
@@ -4688,8 +4690,11 @@ Menu Mobile style's
   -o-background-size: cover;
   background-size: cover;
 }
-#slide-140-layer-4, #slide-140-layer-3{
+#slide-140-layer-4, #slide-140-layer-3, #deskArrow{
     display:none;
+}
+#mobileArrow{
+    display:block;
 }
 .link-down{
     bottom:100px;

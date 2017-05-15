@@ -4697,10 +4697,10 @@ Menu Mobile style's
 .z-bigger-mobile2{
     padding-top: 5%;
 }
-#slide-140-layer-4, #slide-140-layer-3, #deskArrow,.mobileDis{
+#slide-140-layer-4, #slide-140-layer-3, #deskArrow, #deskContact,.mobileDis{
     display:none;
 }
-#mobileArrow{
+#mobileArrow, #mobileContact{
     display:block;
 }
 .link-down{

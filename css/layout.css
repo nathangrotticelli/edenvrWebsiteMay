@@ -4684,7 +4684,8 @@ Menu Mobile style's
 	}*/
 
     .dark-over-home-slider{
-    background: url('../images/backgroundMain.png') no-repeat center top;
+    top:-10%;
+    background: url('../images/backgroundMain.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

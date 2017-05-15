@@ -1093,7 +1093,9 @@ ul.tabs.light li.current,
 	transform: translate3d(0,0,0);
 }
 .portfolio-box-1.half-width{
-	width:50%;
+	width:49.99%;
+    /*margin-left: .005%;*/
+     /*margin-right: .005%;*/
 }
 .portfolio-box-1.quarter-width{
 	width:25%;

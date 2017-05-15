@@ -104,7 +104,7 @@
 
 		//Video
 
-		$(".video-section").fitVids();
+		// $(".video-section").fitVids();
 
 				//Tooltip
 

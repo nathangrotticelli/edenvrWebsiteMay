@@ -732,11 +732,12 @@
 <script type="text/javascript" src="js/custom-home4.js"></script>
 <script type="text/javascript" src="js/custom-home1.js"></script>
 <script>
+var x = document.getElementById('myDiv2');
 var alert2 = function(){
-    if (document.getElementById('myDiv2').style.display === 'none') {
-        document.getElementById('myDiv2').style.display = 'block';
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
     } else {
-        document.getElementById('myDiv2').style.display = 'none';
+        x.style.display = 'none';
     }
 }
 </script>

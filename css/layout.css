@@ -1930,7 +1930,6 @@ ul.tabs.light li.current,
 	top:0;
 	left:0;
     background: url('../images/backgroundMain.png') no-repeat center center fixed;
-    background-image:url('../images/backgroundMain.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -4682,15 +4681,24 @@ Menu Mobile style's
 		display:none;
 	}
 
+    .dark-over-home-slider{
+    background: url('../images/backgroundMain.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
 	/* #Menu background is not trasparent mobile fix
 	================================================== */
 
-/*	.menu-back.menu-have-back-color{
+	.menu-back.menu-have-back-color{
 		background: rgba(0,0,0,1);
-	}*/
-/*	.cbp-af-header.menu-have-back-color.cbp-af-header-shrink {
+	}
+	.cbp-af-header.menu-have-back-color.cbp-af-header-shrink {
 		background: rgba(0,0,0,1);
-	}*/
+	}
 	.menu-back.light.menu-have-back-color{
 		background: rgba(245,245,245,1);
 	}

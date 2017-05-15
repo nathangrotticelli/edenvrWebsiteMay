@@ -191,7 +191,7 @@
 
 		//Parallax
 
-		$('.parallax-home').parallax("50%", 0.2);
+		// $('.parallax-home').parallax("50%", 0.2);
 
 
 		//Video

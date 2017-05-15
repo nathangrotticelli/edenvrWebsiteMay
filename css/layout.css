@@ -4688,7 +4688,7 @@ Menu Mobile style's
   -o-background-size: cover;
   background-size: cover;
 }
-#slide-140-layer-4{
+#slide-140-layer-4, #slide-140-layer-3{
     display:none;
 }
 .link-down{

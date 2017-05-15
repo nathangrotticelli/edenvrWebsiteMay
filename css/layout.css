@@ -4697,20 +4697,26 @@ Menu Mobile style's
 
 	/* #Menu background is not trasparent mobile fix
 	================================================== */
+    .menu-back.menu-have-back-color{
+    background: transparent;
+}
+.cbp-af-header.menu-have-back-color.cbp-af-header-shrink {
+    background-color:#181818;
+}
 
 /*	.menu-back.menu-have-back-color{
 		background: rgba(0,0,0,1);
 	}
 	.cbp-af-header.menu-have-back-color.cbp-af-header-shrink {
 		background: rgba(0,0,0,1);
-	}
+	}*/
 	.menu-back.light.menu-have-back-color{
 		background: rgba(245,245,245,1);
 	}
 	.cbp-af-header.light.menu-have-back-color.cbp-af-header-shrink {
 		background: rgba(245,245,245,1);
 	}
-*/
+
 
 	/* #Icon on left side for menu on mobile
 	================================================== */

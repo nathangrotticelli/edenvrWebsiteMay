@@ -96,7 +96,7 @@
 		$(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\"></a>");
 
 		//Adds menu-mobile class (for mobile toggle menu) before the normal menu
-		//Mobile menu is hidden if width is more then 1199px, but normal menu is displayed
+		//Mobile menu is hidden if width is more then 1199px, but normal menu is dispfd
 		//Normal menu is hidden if width is below 1199px, and jquery adds mobile menu
 		//Done this way so it can be used with wordpress without any trouble
 

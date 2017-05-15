@@ -100,12 +100,12 @@
 		//Normal menu is hidden if width is below 1199px, and jquery adds mobile menu
 		//Done this way so it can be used with wordpress without any trouble
 
-		$('.menu > ul > li').hover(function() {
-			if ($(window).width() > 1183) {
-				$(this).children("ul").stop(true, false).toggleClass('active');
-				e.preventDefault();
-			}
-		});
+		// $('.menu > ul > li').hover(function() {
+		// 	if ($(window).width() > 1183) {
+		// 		$(this).children("ul").stop(true, false).toggleClass('active');
+		// 		e.preventDefault();
+		// 	}
+		// });
 
 		$(".menu > ul > li").click(function(e){
 			if ($(window).width() < 1183) {

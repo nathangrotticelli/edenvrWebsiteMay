@@ -2907,7 +2907,7 @@ font-size: 11px;
 	opacity:1;
 }
 
-#mobileArrow, #mobileContact, #mobileContact2{
+#mobileArrow, #mobileContact, #mobileContact2, #slide-140-layer-5{
     display:none;
 }
 
@@ -4697,10 +4697,10 @@ Menu Mobile style's
 .z-bigger-mobile2{
     padding-top: 5%;
 }
-#slide-140-layer-4, #slide-140-layer-3, #deskArrow, #deskContact, #deskContact2, .mobileDis{
+#slide-140-layer-3, #slide-140-layer-4, #deskArrow, #deskContact, #deskContact2, .mobileDis{
     display:none;
 }
-#mobileArrow, #mobileContact, #mobileContact2{
+#mobileArrow, #mobileContact, #mobileContact2, #slide-140-layer-5{
     display:block;
 }
 .link-down{

@@ -27,15 +27,15 @@
 
 	/* Icons Animation */
 
-	var options = {
-	  duration: 200,
-	  type: 'oneByOne',
-	  animTimingFunction: Vivus.EASE
-	};
+	// var options = {
+	//   duration: 200,
+	//   type: 'oneByOne',
+	//   animTimingFunction: Vivus.EASE
+	// };
 
-	var vivus = new Vivus('svg-icon-1',	options, onComplete);
-				new Vivus('svg-icon-2',	options, onComplete);
-				new Vivus('svg-icon-3',	options, onComplete);
+	// var vivus = new Vivus('svg-icon-1',	options, onComplete);
+	// 			new Vivus('svg-icon-2',	options, onComplete);
+	// 			new Vivus('svg-icon-3',	options, onComplete);
 
 	function onComplete() {}
 

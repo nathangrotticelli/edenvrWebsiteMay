@@ -1294,7 +1294,12 @@ ul.tabs.light li.current,
 	display:block;
 }
 
+/* #Careers page
+================================================== */
 
+.careersBack{
+    padding-top: 11%;
+}
 
 /* #Logos
 ================================================== */
@@ -1884,6 +1889,9 @@ ul.tabs.light li.current,
 }
 .padding-top-small{
 	padding-top:60px;
+}
+.padding-top-small2{
+    padding-top:40px;
 }
 .padding-bottom-small{
 	padding-bottom:70px;

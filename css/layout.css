@@ -1294,6 +1294,12 @@ ul.tabs.light li.current,
 	display:block;
 }
 
+/*Rental Page*/
+
+#rentBtn:hover{
+    opacity:.6;
+}
+
 /* #Careers page
 ================================================== */
 

@@ -1202,7 +1202,7 @@ ul.tabs.light li.current,
 }
 
 .comingSoon{
-   pointer-events: none;
+   /*pointer-events: none;*/
    cursor: default;
 }
 

@@ -1201,6 +1201,10 @@ ul.tabs.light li.current,
     transform: scale(1.05);*/
 }
 
+.comingSoon{
+   pointer-events: none;
+   cursor: default;
+}
 
 #portfolio-filter {
 	position:absolute;

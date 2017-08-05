@@ -1906,6 +1906,10 @@ ul.tabs.light li.current,
 .padding-bottom-small{
 	padding-bottom:70px;
 }
+.padding-top-bottom-small2{
+    padding-top:8px;
+    padding-bottom:8px;
+}
 .padding-top-page{
 	padding-top:180px;
 }

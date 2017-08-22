@@ -1197,12 +1197,11 @@ ul.tabs.light li.current,
     transition: all 300ms linear;
 }
 .portfolio-box-1:hover img{
-    -webkit-transform: scale(1.05)!important;
-    -moz-transform: scale(1.05)!important;
-    -ms-transform: scale(1.05)!important;
-    -o-transform: scale(1.05)!important;
-    transform: scale(1.05)!important;
-
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .comingSoon{

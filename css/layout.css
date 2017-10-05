@@ -4375,14 +4375,15 @@ figure.vimeo a img, figure.youtube a img {
 }
 .left-footer p{
 	text-align:left;
-	font-size:12px;
+    margin-left: 5px;
+	font-size:14px;
 	line-height:20px;
 	color: #f4f4f4;
 	letter-spacing:1px;
 }
 .right-footer p{
 	text-align:right;
-	font-size:12px;
+	font-size:13px;
 	line-height:20px;
 	color: #f4f4f4;
 	letter-spacing:1px;

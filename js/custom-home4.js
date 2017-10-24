@@ -16,7 +16,6 @@
 								jsFileLocation:"../js/",
 								sliderLayout:"fullscreen",
 								dottedOverlay:"none",
-								delay:9000,
 								navigation: {
 								},
 								viewPort: {
@@ -38,8 +37,6 @@
 								spinner:"off",
 								autoHeight:"off",
 								disableProgressBar:"on",
-								hideThumbsOnMobile:"off",
-								hideSliderAtLimit:0,
 								hideCaptionAtLimit:0,
 								hideAllCaptionAtLilmit:0,
 								debugMode:false,

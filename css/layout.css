@@ -1332,7 +1332,7 @@ ul.tabs.light li.current,
 	text-align:center;
 }
 #owl-logos .item img{
-	width:80px;
+	width:140px;
 	display:block;
 	margin:0 auto;
 	text-align:center;
@@ -1906,6 +1906,9 @@ ul.tabs.light li.current,
 .padding-top-small2{
     padding-top:40px;
 }
+.padding-bottom-small2{
+    padding-top:40px;
+}
 .padding-bottom-small{
 	padding-bottom:70px;
 }
@@ -1943,7 +1946,6 @@ ul.tabs.light li.current,
 .back-gray{
 	background-color:#f9f9f9;
 }
-
 .dark-over-home-slider{
 	position:absolute;
 	background:#212121;
@@ -2038,7 +2040,7 @@ ul.tabs.light li.current,
 .section-title{
 	position:relative;
 	width:100%;
-	padding-bottom:50px;
+	padding-bottom:0px;
 }
 .section-title.title-page-sec{
 	margin-top:120px;
@@ -2058,7 +2060,7 @@ ul.tabs.light li.current,
 	font-size: 90px;
 	line-height:40px;
 	letter-spacing:2px;
-	opacity:.1;
+	opacity:.2;
 }
 .section-title.error-page .shadow-title{
 	top:30px;
@@ -2111,6 +2113,9 @@ ul.tabs.light li.current,
 	text-align:center;
 	padding-top:20px;
     font-size: 15px;
+}
+.font17 p{
+    font-size: 17px;
 }
 .about-wrap .about-icon{
 	position:relative;

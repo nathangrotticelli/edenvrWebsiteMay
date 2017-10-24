@@ -2110,6 +2110,7 @@ ul.tabs.light li.current,
 .about-wrap p{
 	text-align:center;
 	padding-top:20px;
+    font-size: 15px;
 }
 .about-wrap .about-icon{
 	position:relative;

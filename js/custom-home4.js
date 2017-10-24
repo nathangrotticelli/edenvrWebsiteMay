@@ -57,17 +57,17 @@
 
 		/* Logos Carousel */
 
-		// $("#owl-logos").owlCarousel({
-		// 	items : 5,
-		// 	itemsDesktop : [1000,4],
-		// 	itemsDesktopSmall : [900,3],
-		// 	itemsTablet: [600,2],
-		// 	itemsMobile : false,
-		// 	navigation: false,
-		// 	pagination : false,
-		// 	autoPlay : 3000,
-		// 	slideSpeed : 300
-		// });
+		$("#owl-logos").owlCarousel({
+			items : 5,
+			itemsDesktop : [1000,4],
+			itemsDesktopSmall : [900,3],
+			itemsTablet: [600,2],
+			itemsMobile : false,
+			navigation: false,
+			pagination : false,
+			autoPlay : 3000,
+			slideSpeed : 300
+		});
 		// The function actually applying the offset
 function offsetAnchor() {
   if (location.hash.length !== 0) {

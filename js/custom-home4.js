@@ -164,23 +164,23 @@ window.setTimeout(offsetAnchor, 0);
 
 			}
 
-			$('#portfolio-filter #filter a').click(function () {
-				var selector = $(this).attr('data-filter');
+			// $('#portfolio-filter #filter a').click(function () {
+			// 	var selector = $(this).attr('data-filter');
 
-				$(this).parent().parent().find('a').removeClass('current');
-				$(this).addClass('current');
+			// 	$(this).parent().parent().find('a').removeClass('current');
+			// 	$(this).addClass('current');
 
-				container.isotope( {
-					filter : selector
-				});
+			// 	container.isotope( {
+			// 		filter : selector
+			// 	});
 
-				setTimeout(function () {
-					reArrangeProjects();
-				}, 300);
+			// 	setTimeout(function () {
+			// 		reArrangeProjects();
+			// 	}, 300);
 
 
-				return false;
-			});
+			// 	return false;
+			// });
 
 			function reArrangeProjects() {
 				setColumnWidth();

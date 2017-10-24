@@ -76,15 +76,15 @@ window.setTimeout(offsetAnchor, 0);
 
 		// /* Quote Carousels */
 
-		$("#owl-sep-1").owlCarousel({
-			navigation: false,
-			pagination : true,
-			transitionStyle : "fade",
-			slideSpeed : 1000,
-			paginationSpeed : 500,
-			singleItem:true,
-			autoPlay: 5000
-		});
+		// $("#owl-sep-1").owlCarousel({
+		// 	navigation: false,
+		// 	pagination : true,
+		// 	transitionStyle : "fade",
+		// 	slideSpeed : 1000,
+		// 	paginationSpeed : 500,
+		// 	singleItem:true,
+		// 	autoPlay: 5000
+		// });
 
 			/* Logos Carousel */
 

@@ -95,7 +95,7 @@ window.setTimeout(offsetAnchor, 0);
 			itemsTablet: [600,2],
 			itemsMobile : false,
 			navigation: false,
-			pagination : false,
+			pagination : true,
 			autoPlay : 4000,
 			slideSpeed : 500
 		});

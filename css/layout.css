@@ -1050,7 +1050,14 @@ ul.tabs.light li.current,
 	transition : all 0.3s ease-out;
 }
 
-
+#slide-140-layer-4{
+    z-index: 9; white-space: nowrap; font-size: 14px; padding:16%; border: 1px solid gray;
+}
+#slide-140-layer-4:hover, #deskArrow:hover{
+    opacity: .8!important;
+    color:lightgray!important;
+    border: 1px solid darkgray!important;
+}
 /* #Portfolio
 ================================================== */
 

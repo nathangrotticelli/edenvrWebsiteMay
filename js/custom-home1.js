@@ -62,8 +62,8 @@
 		/* Page Scroll to id fn call */
 		$("ul.slimmenu li a,a[href='#top'],a[data-gal='m_PageScroll2id']").mPageScroll2id({
 			highlightSelector:"ul.slimmenu li a",
-			offset: 78,
-			scrollSpeed:800,
+			offset: -50,
+			scrollSpeed:1000,
 			scrollEasing: "easeInOutCubic"
 		});
 

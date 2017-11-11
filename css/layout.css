@@ -1467,7 +1467,8 @@ ul.tabs.light li.current,
 }
 #ajax-form input{
 	position:relative;
-	width:calc(100% - 40px);
+	/*width:calc(100% - 40px);*/
+    width: 100%;
 	padding-left:20px;
 	padding-right:20px;
 	font-family: 'Open Sans', sans-serif;
@@ -1483,7 +1484,8 @@ ul.tabs.light li.current,
 	transition: border-bottom 0.3s, color 0.3s;
 }
 #ajax-form textarea {
-	width:calc(100% - 40px);
+	/*width:calc(100% - 40px);*/
+    width: 100%;
 	padding-left:20px;
 	padding-right:20px;
 	font-family: 'Open Sans', sans-serif;

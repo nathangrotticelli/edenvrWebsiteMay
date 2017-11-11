@@ -39,8 +39,8 @@
 	new Vivus('svg-icon-4',	options, onComplete);
 	new Vivus('svg-icon-5',	options, onComplete);
 	new Vivus('svg-icon-6',	options, onComplete);
-	// new Vivus('svg-icon-7',	options, onComplete);
-	// new Vivus('svg-icon-8',	options, onComplete);
+	new Vivus('svg-icon-7',	options, onComplete);
+	new Vivus('svg-icon-8',	options, onComplete);
 	// new Vivus('svg-icon-9',	options, onComplete);
 
 

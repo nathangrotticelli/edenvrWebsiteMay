@@ -88,23 +88,17 @@
 		}
 function onVrViewLoad() {
   var vrView = new VRView.Player('#vrview', {
-    image: 'http://s3.us-east-2.amazonaws.com/eden-pics/HollwoodShot1.jpg',
+    image: '//http://s3.us-east-2.amazonaws.com/eden-pics/HollwoodShot1.jpg',
     is_stereo: true
   });
 }
 
 function onVrViewLoad2() {
   var vrView2 = new VRView.Player('#vrview2', {
-    image: 'images/HollwoodShot1.jpg'
+    image: '//storage.googleapis.com/vrview/index.html?image=//s3.us-east-2.amazonaws.com/eden-pics/HollwoodShot1.jpg',
+	is_stereo=true
   });
 }
-
-function onVrViewLoad3() {
-  var vrView3 = new VRView.Player('#vrview3', {
-    image: 'images/HollwoodShot1.jpg'
-  });
-}	
-
 
 
 		//TaurusMenu

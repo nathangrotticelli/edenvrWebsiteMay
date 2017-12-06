@@ -29,7 +29,7 @@ var onVrViewLoad = function () {
     is_stereo: false
   });
 };
-	$(window).addEventListener('load', onVrViewLoad);
+	window.addEventListener('load', onVrViewLoad);
 
 
 

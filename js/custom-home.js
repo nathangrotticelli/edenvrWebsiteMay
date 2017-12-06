@@ -25,8 +25,8 @@
 
 var onVrViewLoad = function () {
   var vrView = new VRView.Player('#vrview', {
-    video: 'http://s3.us-east-2.amazonaws.com/eden-pics/PIC_2017_12_01_00_10_17_20171202045328.jpg',
-    is_stereo: false
+    video: 'http://s3.us-east-2.amazonaws.com/eden-pics/HollwoodShot1.jpg',
+    is_stereo: true
   });
 };
 	window.addEventListener('load', onVrViewLoad);

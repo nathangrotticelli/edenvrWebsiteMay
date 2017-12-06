@@ -32,8 +32,7 @@ function onVrViewLoad() {
 
 window.addEventListener('load', onVrViewLoad2)
 function onVrViewLoad2() {
-  var vrView2 = new VRView.Player('#vrview', {
-  	
+  var vrView2 = new VRView.Player('#vrview2', {
     image: 'images/HollwoodShot1.jpg'
   });
 }

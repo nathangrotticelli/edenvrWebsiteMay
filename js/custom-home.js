@@ -33,8 +33,8 @@ function onVrViewLoad() {
 window.addEventListener('load', onVrViewLoad2)
 function onVrViewLoad2() {
   var vrView2 = new VRView.Player('#vrview', {
-    image: 'images/HollwoodShot1.jpg',
-    is_stereo: true
+  	
+    image: 'images/HollwoodShot1.jpg'
   });
 }
 	

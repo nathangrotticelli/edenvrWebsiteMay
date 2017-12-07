@@ -49,7 +49,6 @@
 	};
 
 
-
 	/* Scroll animations */
 
 	window.scrollReveal = new scrollReveal();
@@ -86,13 +85,6 @@
 		if ($(window).width() > 1200) {
 			$(".portfolio-filter").stick_in_parent({offset_top: 100});
 		}
-
-function onVrViewLoad() {
-  var vrView = new VRView.Player('#vrview', {
-    image: 'storage.googleapis.com/vrview/index.html?image=//s3.us-east-2.amazonaws.com/eden-pics/HollwoodShot1.jpg',
-    is_stereo: true
-  });
-}
 
 		//TaurusMenu
 

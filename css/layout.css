@@ -4836,7 +4836,11 @@ Menu Mobile style's
 	padding-bottom:50px;
 }
 }
-
+@media only screen and (max-width: 1275px) {
+    .noShowSmallScreen{
+       display: none;
+    }
+}
 @media only screen and (max-width: 1200px) {
 #royal_preloader.royal_preloader_number .royal_preloader_percentage {
     width: 270px;

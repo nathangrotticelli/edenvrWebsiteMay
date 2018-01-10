@@ -319,9 +319,7 @@ body.royal_preloader {
 }
 
 
-.smallScreenShow{
-    display: none;
-}
+
 
 
 /* #Navigation
@@ -4741,7 +4739,7 @@ Menu Mobile style's
 .z-bigger-mobile2{
     padding-top: 5%;
 }
-#slide-140-layer-3, #deskArrow, #deskContact, #deskContact2, .mobileDis{
+#deskArrow, #deskContact, #deskContact2, .mobileDis{
     display:none;
 }
 #mobileArrow, #mobileContact, #mobileContact2, #slide-140-layer-5{
@@ -4827,6 +4825,9 @@ Menu Mobile style's
 
 }
 
+.smallScreenShow{
+    display: none;
+}
 
 /* #Media Queries
 ================================================== */

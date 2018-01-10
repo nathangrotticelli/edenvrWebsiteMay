@@ -319,6 +319,9 @@ body.royal_preloader {
 }
 
 
+.smallScreenShow{
+    display: none;
+}
 
 
 /* #Navigation

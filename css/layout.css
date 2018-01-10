@@ -1312,7 +1312,8 @@ ul.tabs.light li.current,
 /*Rental Page*/
 
 #rentBtn:hover{
-    opacity:.6;
+    opacity:.5;
+    /*background: black;*/
 }
 
 /* #Careers page
@@ -4914,6 +4915,10 @@ Menu Mobile style's
 .pricing-plan{
 	width:100%;
 }
+#slide-140-layer-1{
+    margin-top:60%!important;
+    /*color:black!important;*/
+}
 .section-title .shadow-title{
 	top:-10px;
 	font-size: 40px;
@@ -5220,6 +5225,12 @@ ul.countdown li p {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+    #slide-140-layer-1{
+    /*bottom:10%!important;*/
+    position: absolute;
+    z-index: 10;
+    /*color:black!important;*/
+}
 .checkout-button{
 	float:none;
 	margin:0 auto;

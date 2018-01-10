@@ -1467,8 +1467,8 @@ ul.tabs.light li.current,
 }
 #ajax-form input{
 	position:relative;
-	/*width:calc(100% - 40px);*/
-    width: 100%;
+	width:calc(100% - 40px);
+    /*width: 100%;*/
 	padding-left:20px;
 	padding-right:20px;
 	font-family: 'Open Sans', sans-serif;
@@ -1484,8 +1484,8 @@ ul.tabs.light li.current,
 	transition: border-bottom 0.3s, color 0.3s;
 }
 #ajax-form textarea {
-	/*width:calc(100% - 40px);*/
-    width: 100%;
+	width:calc(100% - 40px);
+    /*width: 100%;*/
 	padding-left:20px;
 	padding-right:20px;
 	font-family: 'Open Sans', sans-serif;
@@ -5108,6 +5108,9 @@ ul.countdown li p {
     }
 }
 @media only screen and (max-width: 600px) {
+.smallScreenShow{
+    display:inline;
+}
 .content-comm img {
 	display: none;
 }

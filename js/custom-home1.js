@@ -2,6 +2,13 @@
 
 	//Preloader
 
+	Royal_Preloader.config({
+		mode           : 'logo',
+		background     : 'black',
+		showProgress   : false,
+		showPercentage : false
+	});
+
 
 	//Home text fade on scroll
 
@@ -74,12 +81,6 @@
 
 
 	$(document).ready(function() {
-			Royal_Preloader.config({
-		mode           : 'logo',
-		background     : 'black',
-		showProgress   : false,
-		showPercentage : false
-	});
 
 		/* fix on scroll */
 

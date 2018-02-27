@@ -62,7 +62,7 @@ body {
 	margin: 1%;
 }
 #home{
-		background-image: url('../images/logoAnimationMain.gif?Math.rand()');
+		background-image: url('../images/logoAnimationMain.gif');
 		background-repeat: repeat-x;
     /*background-size: cover;*/
      -webkit-background-size: 100% auto;

@@ -3,44 +3,44 @@
 	//Preloader
 
 	Royal_Preloader.config({
-		mode           : 'progress',
-		background     : '#111111',
-		showProgress   : true,
+		mode           : 'logo',
+		background     : 'black',
+		showProgress   : false,
 		showPercentage : false
 	});
 
 
 	//Home text fade on scroll
 
-	$(window).scroll(function () {
-        var $Fade = $('.fade-elements');
-        //Get scroll position of window
-        var windowScroll = $(this).scrollTop();
-        //Slow scroll and fade it out
-        $Fade.css({
-            'margin-top': -(windowScroll / 0) + "px",
-            'opacity': 1 - (windowScroll / 300)
-        });
-    });
+	// $(window).scroll(function () {
+ //        var $Fade = $('.fade-elements');
+ //        //Get scroll position of window
+ //        var windowScroll = $(this).scrollTop();
+ //        //Slow scroll and fade it out
+ //        $Fade.css({
+ //            'margin-top': -(windowScroll / 0) + "px",
+ //            'opacity': 1 - (windowScroll / 300)
+ //        });
+ //    });
 
 
 	/* Icons Animation */
 
 
-	var options = {
-	  duration: 200,
-	  type: 'oneByOne',
-	  animTimingFunction: Vivus.EASE
-	};
+	// var options = {
+	//   duration: 200,
+	//   type: 'oneByOne',
+	//   animTimingFunction: Vivus.EASE
+	// };
 
-  var vivus = new Vivus('svg-icon-1', options, onComplete);
-	new Vivus('svg-icon-2',	options, onComplete);
-	new Vivus('svg-icon-3',	options, onComplete);
-	new Vivus('svg-icon-4',	options, onComplete);
-	new Vivus('svg-icon-5',	options, onComplete);
-	new Vivus('svg-icon-6',	options, onComplete);
-	new Vivus('svg-icon-7',	options, onComplete);
-	new Vivus('svg-icon-8',	options, onComplete);
+ //  var vivus = new Vivus('svg-icon-1', options, onComplete);
+	// new Vivus('svg-icon-2',	options, onComplete);
+	// new Vivus('svg-icon-3',	options, onComplete);
+	// new Vivus('svg-icon-4',	options, onComplete);
+	// new Vivus('svg-icon-5',	options, onComplete);
+	// new Vivus('svg-icon-6',	options, onComplete);
+	// new Vivus('svg-icon-7',	options, onComplete);
+	// new Vivus('svg-icon-8',	options, onComplete);
 	// new Vivus('svg-icon-9',	options, onComplete);
 
 
@@ -66,6 +66,7 @@
 			scrollSpeed:1250,
 			scrollEasing: "easeInOutCubic"
 		});
+		$(this).scrollTop(-100);
 
 		/* demo functions */
 		$("a[rel='next']").click(function(e){

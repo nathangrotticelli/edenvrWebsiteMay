@@ -41,20 +41,45 @@
 /* #Basic Styles
 ================================================== */
 body {
-	background: #212121;
+	background: black;
 	font-family: 'Open Sans';
 	font-weight:300;
 	font-size: 15px;
 	line-height:22px;
 	color:#f9f9f9;
-	overflow-x:hidden;
+	/*margin:1.5%;*/
+	margin-top: 1.5%;
+	/*overflow-x:hidden;*/
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	-webkit-text-size-adjust: 100%;
+	/*margin:1%;*/
  }
  html {
-		overflow-x:hidden; 
-	height:100%;
+	overflow-x:hidden; 
+	height:100%;	
+	/*width: 	100%;*/
+	margin: 1%;
+}
+#home{
+		background-image: url('../images/logoAnimationMain.gif');
+		background-repeat: repeat-x;
+    /*background-size: cover;*/
+     -webkit-background-size: 100% auto;
+  /*z-index: 1;*/
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  width: 100%;
+	height: 100%;
+
+	/*margin-top:2.5%;*/
+  /*width:auto;*/
+  /*margin:2%;*/
+  /*margin:3%;*/
+  /*width: 100%;*/
+  /*height:100%;*/
+  padding-top: 15%;
 }
 /* #Typography
 ================================================== */
@@ -127,6 +152,8 @@ h6 { font-size: 14px; line-height: 20px; font-weight:500;}
 	input[type="reset"],
 	input[type="button"] {
 	  cursor: pointer;
+	  font-family: 'league_gothicitalic';
+	  /*font-size: 40px;*/
 }
 
 	.button:hover,
@@ -147,8 +174,8 @@ h6 { font-size: 14px; line-height: 20px; font-weight:500;}
 	input[type="reset"].full-width,
 	input[type="button"].full-width {
 		width: 100%;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
+		padding-left: 0;
+		padding-right: 0;
 		text-align: center; }
 
 	/* Fix for odd Mozilla border & padding issues */

@@ -44,7 +44,9 @@ ul.slimmenu li a.mPS2id-highlight,
 .checkout-wrap .name:hover,
 .checkout-wrap .total,
 .prices-wrap.colored p {
-    color: #e87638;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter,
 .list-social-footer li:hover,
@@ -85,13 +87,13 @@ ul.slimmenu li a.mPS2id-highlight,
 #ajax-form input:focus,
 #ajax-form textarea:active,
 #ajax-form input:active {
-	border-bottom:1px solid #e87638;
+	border-bottom:1px solid white;
 }
 .menu.light #ajax-form textarea:focus,
 .menu.light #ajax-form input:focus,
 .menu.light #ajax-form textarea:active,
 .menu.light #ajax-form input:active {
-	border-bottom:1px solid #e87638;
+	border-bottom:1px solid white;
 }
 .comments textarea:focus,
 .comments input:focus,

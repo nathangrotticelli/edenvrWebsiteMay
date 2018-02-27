@@ -62,7 +62,7 @@ body {
 	margin: 1%;
 }
 #home{
-		background-image: url('../images/logoAnimationMain.gif');
+		background-image: url('../images/logoAnimationMain.gif?<?php echo time();?>');
 		background-repeat: repeat-x;
     /*background-size: cover;*/
      -webkit-background-size: 100% auto;

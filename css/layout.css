@@ -74,7 +74,7 @@ body.royal_preloader {
     /*height:100%;*/
     
 
-        background-image: url('../images/logoLoading.gif');
+        background-image: url('../images/logoLoading.gif?<?php echo time();?>');
         background-repeat: repeat-x;
     /*background-size: cover;*/
      -webkit-background-size: 100% auto;

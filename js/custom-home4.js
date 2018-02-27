@@ -1,52 +1,59 @@
 (function($) { "use strict";
+	Royal_Preloader.config({
+		mode           : 'logo',
+		background     : 'black',
+		showProgress   : false,
+		showPercentage : false
+	});
 
 	$(document).ready(function() {
 
 
 			/* slider revolution */
 
-					var tpj=jQuery;
-					var revapi42;
-					tpj(document).ready(function() {
-						if(tpj("#rev_slider_42_1").revolution == undefined){
-							revslider_showDoubleJqueryError("#rev_slider_42_1");
-						}else{
-							revapi42 = tpj("#rev_slider_42_1").show().revolution({
-								sliderType:"hero",
-								jsFileLocation:"../js/",
-								sliderLayout:"fullscreen",
-								dottedOverlay:"none",
-								navigation: {
-								},
-								viewPort: {
-									enable:true,
-									outof:"pause",
-									visible_area:"80%"
-								},
-								responsiveLevels:[1240,1024,778,480],
-								gridwidth:[1240,1024,778,480],
-								gridheight:[500,450,400,350],
-								lazyType:"none",
-								parallax: {
-									type:"scroll",
-									origo:"enterpoint",
-									speed:400,
-									levels:[5,10,15,20,25,30,35,40,45,50],
-								},
-								shadow:0,
-								spinner:"off",
-								autoHeight:"off",
-								disableProgressBar:"on",
-								hideCaptionAtLimit:0,
-								hideAllCaptionAtLilmit:0,
-								debugMode:false,
-								fallbacks: {
-									simplifyAll:"off",
-									disableFocusListener:false,
-								}
-							});
-						}
-					});	/*ready*/
+					// var tpj=jQuery;
+					// var revapi42;
+					// tpj(document).ready(function() {
+					// 	if(tpj("#rev_slider_42_1").revolution == undefined){
+					// 		revslider_showDoubleJqueryError("#rev_slider_42_1");
+					// 	}else{
+					// 		revapi42 = tpj("#rev_slider_42_1").show().revolution({
+					// 			sliderType:"hero",
+					// 			jsFileLocation:"../js/",
+					// 			sliderLayout:"fullscreen",
+					// 			dottedOverlay:"none",
+					// 			navigation: {
+					// 			},
+					// 			viewPort: {
+					// 				enable:true,
+					// 				outof:"pause",
+					// 				visible_area:"80%"
+					// 			},
+					// 			responsiveLevels:[1240,1024,778,480],
+					// 			gridwidth:[1240,1024,778,480],
+					// 			gridheight:[500,450,400,350],
+					// 			lazyType:"none",
+					// 			parallax: {
+					// 				type:"scroll",
+					// 				origo:"enterpoint",
+					// 				speed:400,
+					// 				levels:[5,10,15,20,25,30,35,40,45,50],
+					// 			},
+					// 			shadow:0,
+					// 			spinner:"off",
+					// 			autoHeight:"off",
+					// 			disableProgressBar:"on",
+					// 			hideCaptionAtLimit:0,
+					// 			hideAllCaptionAtLilmit:0,
+					// 			debugMode:false,
+					// 			fallbacks: {
+					// 				simplifyAll:"off",
+					// 				disableFocusListener:false,
+					// 			}
+					// 		});
+					// 	}
+					// });	
+/*ready*/
 
 
 

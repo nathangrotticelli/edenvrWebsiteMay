@@ -569,7 +569,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
     animation: fadeIn 1.3s ease-in-out 1s forwards;
-    animation-delay: 3.3s;
+    animation-delay: 2.7s;
 
 }
 
@@ -1135,7 +1135,7 @@ ul.tabs.light li.current,
     /*margin:1%;*/
     /*make fade in start when load is compelte*/
     animation: fadeIn 1.3s ease-in-out 1s forwards;
-    animation-delay: 3.3s;
+    animation-delay: 2.7s;
 
 }
 #projects-grid.in-container{

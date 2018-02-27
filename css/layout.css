@@ -74,7 +74,7 @@ body.royal_preloader {
     /*height:100%;*/
     
 
-        background-image: url('../images/logoLoading.gif?<?php echo time();?>');
+        background-image: url('../images/logoLoading.gif');
         background-repeat: repeat-x;
     /*background-size: cover;*/
      -webkit-background-size: 100% auto;
@@ -5354,7 +5354,8 @@ ul.countdown li p {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .mobileLastBox{
+
+.mobileLastBox{
     margin-top: 10%;
 }
 #projects-grid{

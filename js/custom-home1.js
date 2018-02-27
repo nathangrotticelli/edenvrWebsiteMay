@@ -88,9 +88,9 @@
 			$(".portfolio-filter").stick_in_parent({offset_top: 100});
 		}
 
-		$('img').each(function(img){
-			img.src = img.src.replace(/\?.*$/,"")+"?x="+Math.random();
-		});
+		// $('img').each(function(img){
+		// 	img.src = img.src.replace(/\?.*$/,"")+"?x="+Math.random();
+		// });
 
 
 		//TaurusMenu

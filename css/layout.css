@@ -569,7 +569,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
     animation: fadeIn 1.3s ease-in-out 1s forwards;
-    animation-delay: 2.3s;
+    animation-delay: 3.3s;
 
 }
 
@@ -1135,7 +1135,7 @@ ul.tabs.light li.current,
     /*margin:1%;*/
     /*make fade in start when load is compelte*/
     animation: fadeIn 1.3s ease-in-out 1s forwards;
-    animation-delay: 2.3s;
+    animation-delay: 3.3s;
 
 }
 #projects-grid.in-container{
@@ -4828,7 +4828,7 @@ Menu Mobile style's
 	}*/
 
   /*/*//*/*/
-.z-bigger-mobile{
+/*.z-bigger-mobile{
     padding-top: 0;
 }
 .z-bigger-mobile2{
@@ -4843,15 +4843,15 @@ Menu Mobile style's
 .link-down{
     bottom:22%;
 }
-
+*/
 	/* #Menu background is not trasparent mobile fix
 	================================================== */
-    .menu-back.menu-have-back-color{
+/*    .menu-back.menu-have-back-color{
     background: transparent;
 }
 .cbp-af-header.menu-have-back-color.cbp-af-header-shrink {
     background-color:black;
-}
+}*/
 
 /*	.menu-back.menu-have-back-color{
 		background: rgba(0,0,0,1);
@@ -4859,26 +4859,26 @@ Menu Mobile style's
 	.cbp-af-header.menu-have-back-color.cbp-af-header-shrink {
 		background: rgba(0,0,0,1);
 	}*/
-	.menu-back.light.menu-have-back-color{
+/*	.menu-back.light.menu-have-back-color{
 		background: rgba(245,245,245,1);
 	}
 	.cbp-af-header.light.menu-have-back-color.cbp-af-header-shrink {
 		background: rgba(245,245,245,1);
 	}
-
+*/
 
 	/* #Icon on left side for menu on mobile
 	================================================== */
 
-	.menu.move-for-left .menu-mobile:after {
+	/*.menu.move-for-left .menu-mobile:after {
 		float: left;
-	}
+	}*/
 
 
 	/* #Mobile fix for menu center and logo top
 	================================================== */
 
-	.menu.menu-center-logo-top {
+	/*.menu.menu-center-logo-top {
 		margin:0;
 	}
 	.menu.menu-center-logo-top > ul {
@@ -4915,10 +4915,10 @@ Menu Mobile style's
 	}
 	.cbp-af-header.cbp-af-header-shrink .menu-container.menu-center-logo-top {
 		padding-top:0;
-	}
+	}*/
 
 
-}
+/*}*/
 
 .smallScreenShow{
     display: none;
@@ -4941,7 +4941,7 @@ Menu Mobile style's
     }
 }
 @media only screen and (max-width: 1200px) {
-#royal_preloader.royal_preloader_number .royal_preloader_percentage {
+/*#royal_preloader.royal_preloader_number .royal_preloader_percentage {
     width: 270px;
 	padding-left:70px;
     height: 200px;
@@ -4989,12 +4989,12 @@ Menu Mobile style's
 	margin:15px;
 	margin-left:14px;
 	width:calc(50% - 30px);
-}
+}*/
 }
 
 @media only screen and (max-width: 1199px) {
 /* #Text scrolling on mobile */
-.marquee {
+/*.marquee {
 	display:none;
 }
 .full-home-height{
@@ -5002,13 +5002,13 @@ Menu Mobile style's
 }
 .case-study-wrapper {
 	margin-top:0;
-}
+}*/
 }
 
 @media only screen and (max-width: 1000px) {
-.pricing-plan{
+/*.pricing-plan{
 	width:100%;
-}
+}*/
    #rentBtn{
     display: none;
 }
@@ -5032,7 +5032,7 @@ Menu Mobile style's
 	letter-spacing:1px;
 	font-size: 12px;
 }
-.portfolio-box-1{
+/*.portfolio-box-1{
 	width:50%;
 }
 .portfolio-box-1.quarter-width{
@@ -5069,8 +5069,8 @@ Menu Mobile style's
 }
 
 .freel-wrapper {
-	width:100%;
-}
+	width:100%;*/
+/*}*/
 }
 @media only screen and (max-width: 900px) {
     .menu > ul > li a{
@@ -5347,6 +5347,11 @@ ul.countdown li p {
 	margin-right:2px;
 }
 }
+@media only screen and (max-width: 440px) {
+/*.mobileLastBox2{
+    margin-top:5%;
+}*/
+}
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .mobileLastBox{
@@ -5354,9 +5359,6 @@ ul.countdown li p {
 }
 #projects-grid{
     margin-top:20%;
-}
-.mobileLastBox2{
-    margin-top:5%;
 }
 .portfolio-box-1{
     padding: 1%;

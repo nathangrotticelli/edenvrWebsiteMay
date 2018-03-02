@@ -1512,7 +1512,21 @@ ul.tabs.light li.current,
 ================================================== */
 #contactLoc{
     /*padding-top: 3%;*/
-    margin-top: 12%;
+    padding-top: 12%;
+}
+.bgGif{
+    /*padding-top: 3%;*/
+    /*padding-top: 12%;*/
+        background-image: url('../images/logoAnimationMain.gif');
+        background-repeat: repeat-x;
+    /*background-size: cover;*/
+     -webkit-background-size: 100% auto;
+  /*z-index: 1;*/
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 100%;
+  width: 100%;
 }
 .form-section {
 	position:relative;
@@ -4939,7 +4953,7 @@ Menu Mobile style's
 }
 .menu > ul > li a {
     /*font-style: bold!importan;*/
-    padding: 95px 36px;
+    padding: 90px 36px;
 }
 @media only screen and (max-width: 1275px) {
     .noShowSmallScreen{
@@ -5024,9 +5038,7 @@ Menu Mobile style's
         /*font-style: bold!importan;*/
         padding: 65px 36px;
     }
-}
-#contactLoc{
-    margin-top:15%;
+   
 }
    #rentBtn{
     display: none;
@@ -5250,6 +5262,11 @@ ul.countdown li p {
     }
 }
 @media only screen and (max-width: 600px) {
+      .menu > ul > li a {
+        /*font-style: bold!importan;*/
+        padding: 30px 40px;
+        font-size: 20px;
+    }
 .smallScreenShow{
     display:inline;
 }
@@ -5321,6 +5338,11 @@ ul.countdown li p {
 }
 
 @media only screen and (max-width: 488px) {
+      .menu > ul > li a {
+        font-size: 20px;
+        /*font-style: bold!importan;*/
+        padding: 17px;
+    }
     .mobileTextSpacing{
         margin-left: 0px!important;
     }
@@ -5328,7 +5350,6 @@ ul.countdown li p {
         margin-left:-25px;
     }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1319px) {
 }
 

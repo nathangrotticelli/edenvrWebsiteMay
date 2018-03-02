@@ -568,7 +568,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     /*margin-right:1.5%; */
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
-    animation: fadeIn 3.5s ease-in-out 1s forwards;
+    animation: fadeIn 3.1s ease-in-out 1s forwards;
     animation-delay: 3.2s;
 
 }
@@ -591,7 +591,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 
 .menu > ul > li a {
     /*font-style: bold!importan;*/
-    padding: 72px 36px;
+    padding: 100px 36px;
     /*padding-right: 10px;*/
     display: block;
 	font-family: 'league_gothicitalic';
@@ -599,7 +599,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 	font-size: 44px;
 	/*line-height:4px;*/
 	/*letter-spacing:.6px;*/
-	/*text-transform:uppercase;*/
+	text-transform:uppercase;
 	color:#fff;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
@@ -1134,7 +1134,7 @@ ul.tabs.light li.current,
     opacity: 0; 
     /*margin:1%;*/
     /*make fade in start when load is compelte*/
-    animation: fadeIn 3.5s ease-in-out 1s forwards;
+    animation: fadeIn 3.1s ease-in-out 1s forwards;
     animation-delay: 3.2s;
 
 }
@@ -1510,7 +1510,10 @@ ul.tabs.light li.current,
 
 /* #Contact form
 ================================================== */
-
+#contactLoc{
+    /*padding-top: 3%;*/
+    margin-top: 12%;
+}
 .form-section {
 	position:relative;
 	padding:30px;
@@ -1562,7 +1565,7 @@ ul.tabs.light li.current,
 	position:relative;
 	/*width:calc(100% - 40px);*/
     width: 88%;
-    margin:6%;
+    margin:5%;
     margin-bottom: 4%;
 	padding-left:20px;
 	padding-right:20px;
@@ -1570,7 +1573,7 @@ ul.tabs.light li.current,
 	font-weight:400;
 	letter-spacing:1px;
 	font-size: 23px;
-	line-height:24px;
+	line-height:14px;
 	padding-bottom: 15px;
 	background:transparent;
 	border:none;
@@ -1582,7 +1585,7 @@ ul.tabs.light li.current,
 	/*width:calc(100% - 40px);*/
     width: 94%;
     margin:3%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 	padding-left:20px;
 	padding-right:20px;
 	font-family: 'league_gothicitalic';
@@ -4934,6 +4937,9 @@ Menu Mobile style's
 .price-description{
 	padding-bottom:50px;
 }
+.menu > ul > li a {
+    /*font-style: bold!importan;*/
+    padding: 95px 36px;
 }
 @media only screen and (max-width: 1275px) {
     .noShowSmallScreen{
@@ -4990,6 +4996,10 @@ Menu Mobile style's
 	margin-left:14px;
 	width:calc(50% - 30px);
 }*/
+    .menu > ul > li a {
+        /*font-style: bold!importan;*/
+        padding: 80px 36px;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -5003,12 +5013,21 @@ Menu Mobile style's
 .case-study-wrapper {
 	margin-top:0;
 }*/
+
 }
 
 @media only screen and (max-width: 1000px) {
 /*.pricing-plan{
 	width:100%;
 }*/
+ .menu > ul > li a {
+        /*font-style: bold!importan;*/
+        padding: 65px 36px;
+    }
+}
+#contactLoc{
+    margin-top:15%;
+}
    #rentBtn{
     display: none;
 }
@@ -5073,10 +5092,12 @@ Menu Mobile style's
 /*}*/
 }
 @media only screen and (max-width: 900px) {
-    .menu > ul > li a{
+     .menu > ul > li a {
         font-size: 35px;
-        padding-top: 45px;
+        /*font-style: bold!importan;*/
+        padding: 45px 36px;
     }
+}
 }
 
 @media only screen and (max-width: 800px) {
@@ -5215,11 +5236,17 @@ ul.countdown li p {
 
 }
 @media only screen and (max-width: 767px) {
+    #ajax-form button {
+        margin-bottom:5%;
+    }
     .serviceSpacer{
         display:none!important;
     }
     .noMobile{
         display:none!important;
+    }
+    .mobileTextSpacing{
+        margin-left: 10px!important;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -5286,11 +5313,19 @@ ul.countdown li p {
 	line-height: 46px;
 }
 }
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 520px) {
      .menu > ul > li a{
         padding:20px;
         font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 488px) {
+    .mobileTextSpacing{
+        margin-left: 0px!important;
+    }
+    .mobileSpacing2{
+        margin-left:-25px;
     }
 }
 

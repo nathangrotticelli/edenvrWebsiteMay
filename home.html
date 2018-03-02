@@ -61,11 +61,7 @@
 			ga('create', 'UA-100577802-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<script>
-			window.onbeforeunload = function () {
-				window.scrollTo(0, 0);
-			}
-		</script>
+		
 	</head>
 	<body class="royal_preloader" style="background:black;">
 		<div class="preloaderAnimation" id="royal_preloader"></div>
@@ -95,8 +91,8 @@
 							<li>
 								<a href="rentals.html">rental</a> <!-- main links -->
 							</li>
-								<li>
-								<a href="#contactLoc">contact</a> <!-- main links -->
+							<li>
+								<a href="contact.html">contact</a> <!-- main links -->
 							</li>
 
 							
@@ -289,68 +285,19 @@
 								</div>	
 						</div>
 					</div>
-					<div id="contactLoc" class="container">
-						
-							<!-- <div class="twelve columns"> -->
-								<!-- <div class="section-title"> -->
-									<!-- <div class="shadow-title" ></div> -->
-									<!-- <h4>get in touch</h4> -->
-							<h1 style="text-align: center; opacity:.95; font-family: 'league_gothicitalic'; font-size: 4em; margin:.5%;">Get In Touch</h1>
-									<!-- <p>Request more information</p> -->
-								<!-- </div> -->
-							<!-- </div> -->
-							<form name="ajax-form" id="ajax-form" action="https://formspree.io/nathan@edenvr.co" method="post">
-								<div class="six columns">
-									<label for="name">
-										<span class="error" id="err-name">please enter name</span>
-									</label>
-									<input style="" name="name" id="name" type="text"   placeholder="Your Name: *"/>
-								</div>
-								<div class="six columns">
-									<label for="email">
-										<span class="error" id="err-email">please enter e-mail</span>
-										<span class="error" id="err-emailvld">e-mail is not a valid format</span>
-									</label>
-									<input style="" name="email" id="email" type="text"  placeholder="E-Mail: *"/>
-								</div>
-								<div class="twelve columns">
-									<label for="message"></label>
-									<textarea style="" name="message" id="message" placeholder="Your Message: *"></textarea>
-								</div>
-								<div class="twelve columns">
-									<div id="button-con">
-										<button class="send_message button-effect button--moema button--text-thick button--text-upper button--size-s" id="send" data-lang="en">submit</button>
-									</div>
-								</div>
-								<div class="clear"></div>
-								<div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
-								<div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
-								<div class="error" id="err-state"></div>
-							</form>
-
-							<div class="clear"></div>
-							<div id="ajaxsuccess">Successfully sent!!</div>
-							<div class="clear"></div>
-					
-					</div>
-					<div class="container" style="margin-top:0; margin-bottom:1.5%;">
-						<!-- <div class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
-							<div class="footer-top">
-								<img src="images/logo-light.png" alt="EdenVR Letter Logo"/>
-							</div>
-						</div> -->
-						<div class="five columns" style="text-align:center;">
-							<div class="" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
+					<div class="container">
+						<div class="five columns" style="text-align:center; margin-top:1px;">
+						  <div class="" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
 							<div class="footer-line">
-							<p>2018 © EdenVR, Inc. All rights reserved.</p>
+								<p style="font-size: .75em; margin-top:0%;">2018 ©EdenVR, Inc. All rights reserved.</p>
+							</div>
+					 	  </div>
 						</div>
-						</div>
-					</div>
-					<div class="two columns"></div>
-						<div class="five columns" style="text-align:center;" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
-							<div class="footer-top">
+						<div class="two columns"></div>
+						<div class="five columns" style="text-align: center; margin-top: 3px;" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
+							<div class="footer-top mobileSpacing2">
 								<div class="social-footer">
-									<ul class="list-social-footer">
+									<ul style="margin-top: -5px;" class="list-social-footer">
 										<li class="icon-footer tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'>
 											<a href="https://twitter.com/@EdenVRinc">&#xf099;</a>
 										</li>
@@ -370,8 +317,6 @@
 								</div>
 							</div>
 						</div>
-						
-						
 					</div>
 				</div>
 

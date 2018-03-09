@@ -569,7 +569,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
     animation: fadeIn 3.5s ease-in-out 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 2.3s;
 
 }
 
@@ -1135,8 +1135,16 @@ ul.tabs.light li.current,
     /*margin:1%;*/
     /*make fade in start when load is compelte*/
     animation: fadeIn 3.5s ease-in-out 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 2.3s;
 
+}
+.logoClass{
+    float:none; 
+    background:black; 
+    width: 100%;
+}
+#copyText{
+    font-size: .75em; margin-top:0%;
 }
 #projects-grid.in-container{
 	/*max-width:1450px;*/

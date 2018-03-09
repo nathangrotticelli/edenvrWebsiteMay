@@ -50,7 +50,7 @@ Table of contents
 }
 
 body.royal_preloader {
-    background: black!important;
+    background: black;
     visibility: hidden;
 
 }
@@ -60,8 +60,8 @@ body.royal_preloader {
     top: 0;
     right: 0;
     bottom: 0;
-    background: black!important;
-    margin: 1%;
+    background: black;
+    padding: 1%;
     left: 0;
     margin-top:2.5%;
     /*height:100%;*/

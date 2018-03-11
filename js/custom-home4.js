@@ -141,32 +141,30 @@ window.setTimeout(offsetAnchor, 0);
 
 
 			var container = $('#projects-grid');
+			var	columnNumb = 3;
 
+			// function getNumbColumns() {
+			// 	var	columnNumb = 3;
 
-			function getNumbColumns() {
-				var winWidth = $(window).width(),
-					columnNumb = 1;
+			// 	// if (winWidth > 1500) {
+			// 	// 	columnNumb = 2;
+			// 	// } else if (winWidth > 1200) {
+			// 	// 	columnNumb = 2;
+			// 	// } else if (winWidth > 900) {
+			// 	// 	columnNumb = 2;
+			// 	// } else if (winWidth > 600) {
+			// 	// 	columnNumb = 2;
+			// 	// } else if (winWidth > 300) {
+			// 	// 	columnNumb = 2;
+			// 	// }
 
-
-				if (winWidth > 1500) {
-					columnNumb = 2;
-				} else if (winWidth > 1200) {
-					columnNumb = 2;
-				} else if (winWidth > 900) {
-					columnNumb = 2;
-				} else if (winWidth > 600) {
-					columnNumb = 2;
-				} else if (winWidth > 300) {
-					columnNumb = 1;
-				}
-
-				return columnNumb;
-			}
+			// 	return columnNumb;
+			// }
 
 
 			function setColumnWidth() {
 				var winWidth = $(window).width(),
-					columnNumb = getNumbColumns(),
+					// columnNumb = getNumbColumns(),
 					postWidth = Math.floor(winWidth / columnNumb);
 
 			}
@@ -198,11 +196,10 @@ window.setTimeout(offsetAnchor, 0);
 			container.imagesLoaded(function () {
 				setColumnWidth();
 
-
 				container.isotope( {
 					itemSelector : '.portfolio-box-1',
-					layoutMode : 'masonry',
-					resizable : false
+						layoutMode : 'fitRows',
+						resizable : true
 				} );
 			} );
 

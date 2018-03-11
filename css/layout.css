@@ -1154,6 +1154,7 @@ ul.tabs.light li.current,
     /*margin-left: 2%;*/
     /*margin-right: 2%;*/
     opacity: 0; 
+    margin: 0 auto;
     /*margin:1%;*/
     /*make fade in start when load is compelte*/
     animation: fadeIn 3.5s ease-in-out 1s forwards;

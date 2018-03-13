@@ -73,7 +73,7 @@ body.royal_preloader {
 .preloaderAnimation {
     /*width:100%;*/
     /*height:100%;*/
-        background-image: url('../images/logoLoadingOpt.gif');
+        background-image: url('../images/logoLoading.gif');
         background-repeat: repeat-x;
     /*background-size: cover;*/
      -webkit-background-size: 100%;
@@ -4080,7 +4080,6 @@ ul.slimmenu li a:hover,
 ul.slimmenu li a.mPS2id-highlight,
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu li a:hover,
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu li a.mPS2id-highlight,
-#royal_preloader.royal_preloader_number .royal_preloader_percentage:after,
 .menu > ul > li a:hover,
 .menu > ul > li > ul > li p span,
 .menu > ul > li > ul > li a span,

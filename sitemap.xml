@@ -7,11 +7,11 @@
 <url>
   <loc>http://www.edenvr.co/</loc>
   <changefreq>monthly</changefreq>
-  <lastmod>2018-02-02T00:00:18+00:00</lastmod>
+  <lastmod>2018-03-03T00:00:18+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.edenvr.co/home.html</loc>
-  <lastmod>2018-01-01T00:00:18+00:00</lastmod>
+  <lastmod>2018-03-03T00:00:18+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
@@ -19,6 +19,12 @@
   <lastmod>2018-02-02T00:00:18+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
+<url>
+  <loc>http://www.edenvr.co/contact.html</loc>
+  <lastmod>2018-03-03T00:00:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
 <url>
   <loc>http://www.edenvr.co/careers.html</loc>
   <lastmod>2018-01-01T00:00:18+00:00</lastmod>
@@ -29,9 +35,4 @@
   <lastmod>2018-01-01T00:00:18+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
-<!-- <url>
-  <loc>http://www.edenvr.co/6dofCameraRentals.html</loc>
-  <lastmod>2018-01-01T00:00:18+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url> -->
 </urlset>

@@ -5334,6 +5334,7 @@ Menu Mobile style's
 .blog-mas{
 	width:calc(100% - 30px);
 }
+/*
 #royal_preloader.royal_preloader_number .royal_preloader_percentage {
     width: 180px;
 	padding-left:40px;
@@ -5341,12 +5342,14 @@ Menu Mobile style's
 	margin-top:-70px;
     line-height: 140px;
     font-size: 100px;
+    display:none;
 }
 #royal_preloader.royal_preloader_number .royal_preloader_percentage:after {
 	padding-left:0;
 	top:-30px;
     font-size: 30px;
-}
+    display:none;
+}*/
 .logo-anime-section{
 	display:none;
 }

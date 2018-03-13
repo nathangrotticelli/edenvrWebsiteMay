@@ -1233,11 +1233,11 @@ ul.tabs.light li.current,
 	margin:25px;
 	width:calc(50% - 50px);
 }*/
-.portfolio-box-1.quarter-width.have-space{
+/*.portfolio-box-1.quarter-width.have-space{*/
 	/*margin:25px;*/
 	/*margin-left:24px;*/
 	/*width:calc(25% - 50px);*/
-}
+/*}*/
 .portfolio-box-1 .mask{
 	position:absolute;
     top:0;
@@ -5578,7 +5578,7 @@ ul.countdown li p {
     margin-top:20%;
 }
 .portfolio-box-1{
-    padding: 1%;
+    padding: 5%;
 }
 .portfolio-box-1 h3{
     font-size: 15px;

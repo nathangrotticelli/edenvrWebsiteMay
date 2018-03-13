@@ -1,10 +1,10 @@
 (function($) { "use strict";
-	Royal_Preloader.config({
-			mode           : 'logo',
-			background     : 'black',
-			showProgress   : false,
-			showPercentage : false
-		});
+	// Royal_Preloader.config({
+	// 		mode           : 'logo',
+	// 		background     : 'black',
+	// 		showProgress   : false,
+	// 		showPercentage : false
+	// 	});
 
 	$(document).ready(function() {
 			/* slider revolution */

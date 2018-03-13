@@ -1269,13 +1269,13 @@ ul.tabs.light li.current,
 	opacity:0;
 }
 .portfolio-box-1 .mask.video-mask{
-	background-image:url('../images/play.png');
+	/*background-image:url('../images/play.png');*/
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size:32px 32px;
 }
 .portfolio-box-1 .mask.gallery-mask{
-	background-image:url('../images/more.png');
+	/*background-image:url('../images/more.png');*/
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size:32px 32px;

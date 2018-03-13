@@ -1,13 +1,13 @@
 (function($) { "use strict";
-	// Royal_Preloader.config({
-	// 		mode           : 'logo',
-	// 		background     : 'black',
-	// 		showProgress   : false,
-	// 		showPercentage : false
-	// 	});
 
 	$(document).ready(function() {
 			/* slider revolution */
+Royal_Preloader.config({
+			mode           : 'logo',
+			background     : 'black',
+			showProgress   : false,
+			showPercentage : false
+		});
 
 					// var tpj=jQuery;
 					// var revapi42;
@@ -63,6 +63,13 @@ function offsetAnchor() {
   if (location.hash.length !== 0) {
     $(window).scrollTo($(window).scrollX, $(window).scrollY - 100);
   }
+}
+
+function fallback(video)
+{
+  var img = video.querySelector('img');
+  if (img)
+    video.parentNode.replaceChild(img, video);
 }
 
 // Captures click events of all <a> elements with href starting with #

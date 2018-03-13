@@ -1,14 +1,14 @@
 (function($) { "use strict";
-	Royal_Preloader.config({
-		mode           : 'logo',
-		background     : 'black',
-		showProgress   : false,
-		showPercentage : false
-	});
+
 
 	$(document).ready(function() {
 
-
+		Royal_Preloader.config({
+			mode           : 'logo',
+			background     : 'black',
+			showProgress   : false,
+			showPercentage : false
+		});
 			/* slider revolution */
 
 					// var tpj=jQuery;

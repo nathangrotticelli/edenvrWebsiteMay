@@ -60,9 +60,10 @@ body.royal_preloader {
     top: 0;
     right: 0;
     bottom: 0;
-    margin: 1%;
+    margin-top: 1%;
+    /*margin: 1%;*/
     left: 0;
-    margin-top:2.5%;
+    /*margin-top:2.5%;*/
     /*height:100%;*/
     /*width: 100%;*/
     /*background: url('./images/logoAnimation.gif') no-repeat left center fixed;*/
@@ -591,7 +592,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
     animation: fadeIn 3.5s ease-in-out 1s forwards;
-    animation-delay: 2.8s;
+    animation-delay: 2.5s;
 
 }
 
@@ -1158,7 +1159,7 @@ ul.tabs.light li.current,
     /*margin:1%;*/
     /*make fade in start when load is compelte*/
     animation: fadeIn 3.5s ease-in-out 1s forwards;
-    animation-delay: 2.8s;
+    animation-delay: 2.5s;
 
 }
 .logoClass{
@@ -5333,19 +5334,6 @@ Menu Mobile style's
 
 .blog-mas{
 	width:calc(100% - 30px);
-}
-#royal_preloader.royal_preloader_number .royal_preloader_percentage {
-    width: 180px;
-	padding-left:40px;
-    height: 140px;
-	margin-top:-70px;
-    line-height: 140px;
-    font-size: 100px;
-}
-#royal_preloader.royal_preloader_number .royal_preloader_percentage:after {
-	padding-left:0;
-	top:-30px;
-    font-size: 30px;
 }
 .logo-anime-section{
 	display:none;

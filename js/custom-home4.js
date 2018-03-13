@@ -2,13 +2,6 @@
 
 	$(document).ready(function() {
 			/* slider revolution */
-Royal_Preloader.config({
-			mode           : 'logo',
-			background     : 'black',
-			showProgress   : false,
-			showPercentage : false
-		});
-
 					// var tpj=jQuery;
 					// var revapi42;
 					// tpj(document).ready(function() {

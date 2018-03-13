@@ -1,6 +1,13 @@
 (function($) { "use strict";
 
 	//Preloader
+	Royal_Preloader.config({
+			mode           : 'logo',
+			background     : 'black',
+			showProgress   : false,
+			showPercentage : false
+		});
+
 
 	//Home text fade on scroll
 

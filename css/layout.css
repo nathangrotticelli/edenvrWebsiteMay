@@ -5513,23 +5513,23 @@ ul.countdown li p {
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
-     .mobileLastBox{
+/*     .mobileLastBox{
     margin-top: 2%;
-}
+}*/
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-     .mobileLastBox{
+/*     .mobileLastBox{
     margin-top: 4%;
 }
-
+*/
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .mobileLastBox{
+/*    .mobileLastBox{
     margin-top: 6%;
-}
+}*/
 
 .checkout-button{
 	float:none;
@@ -5569,10 +5569,10 @@ ul.countdown li p {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-
+/*
 .mobileLastBox{
     margin-top: 10%;
-}
+}*/
 #projects-grid{
     margin-top:20%;
 }
@@ -5586,9 +5586,9 @@ ul.countdown li p {
     font-size: 10px;
 
 }
-#projects-grid{
+/*#projects-grid{*/
     /*margin: 0     ;*/
-}
+/*}*/
 /*.checkout-button{
 	float:none;
 	margin:0 auto;
@@ -5620,7 +5620,7 @@ ul.countdown li p {
 }*/
 }
 
-@media only screen and (max-width: 319px) {
+/*@media only screen and (max-width: 319px) {*/
 /*.checkout-button{
 	float:none;
 	margin:0 auto;
@@ -5650,7 +5650,7 @@ ul.countdown li p {
     margin-left:2px;
 	margin-right:2px;
 }*/
-}
+/*}*/
 
 
 

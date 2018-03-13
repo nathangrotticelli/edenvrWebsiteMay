@@ -45,11 +45,6 @@
 					// 	}
 					// });	
 /*ready*/
-
-
-
-
-
 	
 		// The function actually applying the offset
 function offsetAnchor() {
@@ -194,20 +189,15 @@ window.setTimeout(offsetAnchor, 0);
 				} );
 			} );
 
-
-
-
-
 			$(window).on('debouncedresize', function () {
 				reArrangeProjects();
 
 			} );
 
-
 		} )(jQuery);
 
 	});
-
+})(jQuery);
 		/* DebouncedResize Function */
 		// (function ($) {
 		// 	var $event = $.event,
@@ -244,7 +234,7 @@ window.setTimeout(offsetAnchor, 0);
 		// } )(jQuery);
 
 
-})(jQuery);
+
 
 
 

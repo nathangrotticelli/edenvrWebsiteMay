@@ -58,13 +58,6 @@ function offsetAnchor() {
   }
 }
 
-function fallback(video)
-{
-  var img = video.querySelector('img');
-  if (img)
-    video.parentNode.replaceChild(img, video);
-}
-
 // Captures click events of all <a> elements with href starting with #
 $(document).on('click', 'a[href^="#"]', function(event) {
   // Click events are captured before hashchanges. Timeout

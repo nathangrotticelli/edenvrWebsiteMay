@@ -215,11 +215,12 @@
 							<a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/T8yMGJn3Ans?enablejsapi=1&html5=1&showinfo=0&rel=0&autoplay=1">
 								<div class="portfolio-box-1 video motion cine">
 									<!-- <div class="mask"></div> -->
-									<!-- <img src="images/planetTileOpt.gif" alt="VR Planet and Asteroids"> -->
+									
 									<video loop autoplay playsinline muted alt="Virtual Reality Asteroid Field and Planet" loop>
-										<source src="images/planetTile.mp4" type="video/mp4">
+										<source src="images/planetTile.mp4" type="video/mp4" onerror="fallback(parentNode)">
 										<source src="images/planetTile.webm" type="video/webm" onerror="fallback(parentNode)">
-											<source src="images/planetTile.ogv" type="video/ogg">
+											<source src="images/planetTile.ogv" type="video/ogg" onerror="fallback(parentNode)"> 
+											<img src="images/planetTileOpt.gif">
 									</video>
 									<h3><br>Stereoscopic Floating in Dystopia<br><span>animated/stereoscopic cgi</span></h3>
 								</div>
@@ -228,7 +229,7 @@
 								<div class="portfolio-box-1 video motion brand">
 									<!-- <div class="mask"></div> -->
 									<!-- <img src="images/planeTileOpt.gif" alt="3D/Spatial Audio American Jetliner 360°"> -->
-									<video autoplay loop muted alt="3D/Spatial Audio American Jetliner 360°">
+									<video autoplay loop muted playsinline alt="3D/Spatial Audio American Jetliner 360°">
 										<source src="images/planeTile.mp4" type="video/mp4">
 										<source src="images/planeTile.webm" type="video/webm">
 											<source src="images/planeTile.ogv" type="video/ogg">
@@ -240,7 +241,7 @@
 								<div class="portfolio-box-1 video motion live">
 									<!-- <div class="mask"></div> -->
 									<!-- <img src="images/sunyPurchaseTile.gif" alt="Interactive art gallery tour with SUNY Purchase"> -->
-									<video autoplay muted loop alt="Interactive Art Gallery Tour with SUNY Purchase">
+									<video autoplay muted loop playsinline alt="Interactive Art Gallery Tour with SUNY Purchase">
 										<source src="images/sunyPurchaseTile.mp4" type="video/mp4">
 										<source src="images/sunyPurchaseTile.webm" type="video/webm">
 											<source src="images/sunyPurchaseTile.ogv" type="video/ogg">

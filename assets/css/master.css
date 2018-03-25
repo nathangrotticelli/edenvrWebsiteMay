@@ -16381,6 +16381,9 @@ body.opacityPlaylist .main-music-player .mesh-title {
   }
 }
 @media (max-width: 500px) {
+  #mainMusicTitle{
+    font-size: .9em;  
+  }
   .trak-item {
     padding-right: 2rem;
   }

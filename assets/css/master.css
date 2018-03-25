@@ -10167,7 +10167,7 @@ body {
   width: 193px;
   height: 194px;
   float: left;
-  background: url(../../images/artistCD1.png) no-repeat center center;
+  background: url(../../images/artistCD3.png) no-repeat center center;
   z-index: 9;
 }
 .list-albums .list-feature li .albumIcon1 .disk {
@@ -10179,7 +10179,7 @@ body {
   width: 193px;
   height: 194px;
   float: left;
-  background: url(../../images/artistCD2.png) no-repeat center center;
+  background: url(../../images/artistCD1.png) no-repeat center center;
   z-index: 9;
 }
 .list-albums .list-feature li .albumIcon2 .disk {
@@ -10191,7 +10191,7 @@ body {
   width: 193px;
   height: 194px;
   float: left;
-  background: url(../../images/artistCD3.png) no-repeat center center;
+  background: url(../../images/artistCD4.png) no-repeat center center;
   z-index: 9;
 }
 .list-albums .list-feature li .albumIcon3 .disk {
@@ -10203,7 +10203,7 @@ body {
   width: 193px;
   height: 194px;
   float: left;
-  background: url(../../images/artistCD4.png) no-repeat center center;
+  background: url(../../images/artistCD2.png) no-repeat center center;
   z-index: 9;
 }
 @media only screen and (max-width: 1025px) {

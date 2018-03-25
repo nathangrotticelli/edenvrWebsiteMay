@@ -16383,6 +16383,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 @media (max-width: 500px) {
   #mainMusicTitle span{  
     font-size: 38px;
+    padding-bottom: 5px;
   }
   .trak-item {
     padding-right: 2rem;

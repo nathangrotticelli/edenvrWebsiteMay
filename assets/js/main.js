@@ -24,6 +24,14 @@
 <!-- ================================================== -->
 <!-- =============== START BREACRUMB OPTIONS ================ -->
 <!-- ================================================== -->
+// jQuery('#mainMessaging').scrollTop();
+jQuery('.link-yaku span').on("click",function(){
+  // alert('dsadas')
+        // jQuery('.paddingHome').animate({scrollTop:0}, 'slow');
+        $('html, body').animate({scrollTop: $("#mainMessaging").offset().top}, 1300);
+        // jQuery(window).animate('slow').scrollTop($("#mainMessaging").scrollTop() + 800);
+        return false;
+    }); 
 
 jQuery(function(){
 

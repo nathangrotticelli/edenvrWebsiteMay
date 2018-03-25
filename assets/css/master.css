@@ -35,12 +35,12 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
- #caseStudySubtext{
-    max-width: 50%;
-  }
-   #caseStudyHeadline{
-    max-width: 60%;
-  }
+#caseStudySubtext{
+  max-width: 50%;
+}
+#caseStudyHeadline{
+  max-width: 60%;
+}
 .padding {
   padding: 18rem 0;
 }
@@ -58,7 +58,7 @@
   padding-top: 10rem;
 }
 .paddingHomeEvents {
-  padding: 17rem 0;
+  padding: 14rem 0;
 }
 .paddingShopSingle {
   padding: 10rem 0;
@@ -12305,7 +12305,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 .starTitle h4 {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-family: 'Karla', sans-serif;
 }
 .starTitle h1 {

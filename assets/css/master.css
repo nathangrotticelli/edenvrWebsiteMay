@@ -35,6 +35,12 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+ #caseStudySubtext{
+    max-width: 50%;
+  }
+   #caseStudyHeadline{
+    max-width: 60%;
+  }
 .padding {
   padding: 18rem 0;
 }
@@ -2636,6 +2642,31 @@ table th[class*="col-"] {
   min-height: 0.01%;
 }
 @media screen and (max-width: 799px) {
+  .mobileOnly{
+    margin-top:40%;
+  }
+  .mobileOnly2{
+    top:38px;
+  }
+  .link-yaku span{
+    font-size: 5.2rem;
+  }
+  #musicSmallTextTop, #musicSmallTextTop2{
+    font-size: 13px;
+    margin-top: -13px;
+  }
+  #caseStudy{
+    padding-left: 15%;
+  }
+  #caseStudySubtext{
+    max-width: 100%;
+  }
+   #caseStudyHeadline{
+    max-width: 90%;
+  }
+  .paddingBottomSmall{
+    padding-bottom:6rem;
+  }
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;

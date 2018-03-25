@@ -36,15 +36,15 @@
 									<div class="star-pattern-1 js-height-full" style="height: 994px;"></div>
 									<div class="col-sm-12"> 
 										<div class="starTitle">
-											<h4>360 Degree</h4>
+											<h4 id="musicSmallTextTop">360 Degree</h4>
 											<div class="grid__item">
 						                		<h1>
-								                	<a class="link link-yaku" href="#">
+								                	<a class="link link-yaku" href="#mainMessaging">
 														<span>M</span><span>U</span><span>S</span><span>I</span><span>C</span>	
 													</a>
 										        </h1>
 						                	</div>
-											<h4>EdenVR</h4>
+											<h4 id="musicSmallTextTop2">EdenVR</h4>
 										</div>
 										<canvas class="cover" width="1920" height="955"></canvas>
 									</div>
@@ -63,7 +63,7 @@
 		<div class="header" >
 			<div class="rightTopHeader" style="margin:2%;">
 				<!-- Open Menu Button -->
-				<a class="open-menu">
+				<a class="open-menu mobileOnly">
 					<!-- Buttons Bars -->
 					<span class="span-1"></span>
 					<span class="span-2"></span>
@@ -238,13 +238,15 @@
 	</div><!-- end topHeader -->
 	<!-- =============== END TOP HEADER ================ -->
 	<!-- =============== START SECOND/INFO SECTION ================ -->
-	<section class="background-properties paddingHomeEvents albumsHome hide-section">
+	<section id="mainMessaging" class="background-properties paddingHomeEvents hide-section">
 		<div class="container">
 				<div class="row">
 					<div class="col-sm-12 paddingBottomSmall">
 						<div class="sectionTitle">
 							<span class="heading-t3"></span>
-							<h1 style="font-size: 5em; font-family: 'league_gothicitalic';">The 360/VR Music Production Agency</h1> 
+							<!-- <br class="mobileOnly"> -->
+							<!-- <br class="mobileOnly"> -->
+							<h1 style="font-size: 5em; font-family: 'league_gothicitalic';" class="mobileOnly">The 360/VR Music Production Agency</h1> 
 							<!-- a/b test this h1  -->
 							<br><br>
 							<span class="heading-b3"></span>
@@ -441,14 +443,14 @@
 	<!-- =============== START HOME-BLOG SECTION ================ -->	
 	<section class="padding hide-section background-properties blogHomeSection" style="overflow: hidden; background-image: url(images/rlMusicPagePic2.png);">	
 		<div class="row">
-			<div class="container">		
+			<div class="container" id="caseStudy" style="word-wrap: break-word;">		
 				<div class="sectionTitle" style="color:white; text-align: left;">
 					<h4 class="heading-t3">Case Study</h4>
 					<br><br>
-					<h1 style="word-wrap: break-word; max-width: 60%; "><a style="color:white; font-family: league_gothicitalic;" href="blogGrid.html">EdenVR boosts engagement for RL Grime's Nova Album using 360 degree (Facebook) content</a></h1>
+					<h1 id="caseStudyHeadline" style="color:white; font-family: league_gothicitalic;">EdenVR boosts engagement for RL Grime's Nova Album using 360 degree Music content</a></h1>
 					<br><br>
-					<h4 style="word-wrap: break-word; max-width: 50%; line-height: 40px;">RL Grime wanted to extend the experience beyond the actual venue. Offering full service VR music production, EdenVR extended the 360 degree electronic music experience to fans at The Shrine and beyond — including a rich social media engagement strategy that increased engagement three-fold.</h4>
-					<a href="contact.html" class="btn" style="background-color:transparent; margin-top:5%; color:white; border-color: white; padding: 1.5% 5%; font-size: 1.1em; font-weight: 600;">Learn More</a>
+					<h4 id="caseStudySubtext" style="line-height: 40px;">RL Grime wanted to extend the experience beyond the actual venue. Offering full service VR music production, EdenVR extended the 360 degree electronic music experience to fans at The Shrine and beyond — including a rich social media engagement strategy that increased engagement three-fold.</h4>
+					<a href="contact.html" class="btn mobileOnly2" style="background-color:transparent; margin-top:5%; color:white; border-color: white; padding: 1.5% 5%; font-size: 1.1em; font-weight: 600;">Learn More</a>
 				</div><!-- end sectionTtile -->
 				
 			</div>	

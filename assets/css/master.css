@@ -24,6 +24,17 @@
     font-weight: normal;
     font-style: normal;
 }
+#connectWithUs:hover{
+  opacity:.8;
+   -webkit-transition-duration: all 0.2s ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-duration: all 0.2s ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
 .padding {
   padding: 18rem 0;
 }

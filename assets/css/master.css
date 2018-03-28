@@ -35,6 +35,12 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.infoDetail{
+  font-size: 1.8em; line-height: 28px; color: black;
+}
+.infoDetail:hover{
+  cursor: default;
+}
 #caseStudySubtext{
   max-width: 50%;
 }
@@ -53,6 +59,9 @@
 .paddingBottomTiny {
   padding-bottom: 2rem;
 }
+/*.paddingBottomSuperSmall{
+  padding-bottom: 3rem;
+}*/
 .shopHomePadding {
   padding-bottom: 9.5rem;
   padding-top: 10rem;
@@ -5170,6 +5179,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     visibility: visible;
     opacity: 1;
   }
+  .infoDetail{
+    font-size: 1.1em;
+  }
 }
 @media (max-width: 780px) {
   .breadcrumb {
@@ -10126,6 +10138,7 @@ body {
   font-weight: 800;
   font-size: 1.5rem;
   line-height: 28px;
+  cursor: default;
   letter-spacing: 1.2px;
   font-family: 'Montserrat', sans-serif;
   color: #5D5D5D;
@@ -10135,6 +10148,7 @@ body {
   margin: 0;
   color: #bb9b69;
   font-family: 'Montserrat', sans-serif;
+  cursor: default;
   font-size: 1.1rem;
   font-weight: 300;
 }
@@ -14383,6 +14397,7 @@ body ul {
   letter-spacing: 2px;
   color: #333;
   text-decoration: none;
+  cursor: default;
   -webkit-transition-delay: 0;
   transition-delay: 0;
   -webkit-transition-property: all;
@@ -14392,11 +14407,12 @@ body ul {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 }
-.sectionTitle h2 a:hover {
+/*.sectionTitle h2 a:hover {
   color: #bb9b69;
-}
+}*/
 .sectionTitle h2:hover {
-  color: #bb9b69;
+  cursor: default;
+  /*color: #bb9b69;*/
 }
 .sectionTitle p {
   font-family: 'Karla', sans-serif;

@@ -28,7 +28,7 @@
 jQuery('.link-yaku span').on("click",function(){
   // alert('dsadas')
         // jQuery('.paddingHome').animate({scrollTop:0}, 'slow');
-        $('html, body').animate({scrollTop: $("#mainMessaging").offset().top}, 1300);
+        $('html, body').animate({scrollTop: $("#infoHeadline").offset().top-55 }, 1200);
         // jQuery(window).animate('slow').scrollTop($("#mainMessaging").scrollTop() + 800);
         return false;
     }); 

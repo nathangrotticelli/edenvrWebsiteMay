@@ -35,6 +35,9 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+#topInfoDetail{
+  max-height:240px;
+}
 .infoDetail{
   font-size: 1.8em; line-height: 28px; color: black;
 }
@@ -67,13 +70,17 @@
   padding-top: 10rem;
 }
 .paddingHomeEvents {
-  padding: 14rem 0;
+  padding: 13rem 0;
+  /*padding-top: 15.5rem;*/
 }
 .paddingShopSingle {
   padding: 10rem 0;
 }
 .paddingTop {
   padding-top: 14rem;
+}
+.paddingTopTiny {
+  padding-top: 4%;
 }
 .paddingGrid {
   padding: 18rem 0 12.5rem 0;
@@ -16282,6 +16289,12 @@ body.opacityPlaylist .main-music-player .mesh-title {
   }
 }
 @media (max-width: 800px) {
+    .paddingTopTiny {
+    padding-top: 0;
+  }
+  #topInfoDetail{
+    max-height: 2000px;
+  }
   .mesh-main-player .mesh-volume-bar {
     display: none !important;
   }

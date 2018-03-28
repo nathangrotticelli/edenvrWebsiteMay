@@ -2673,9 +2673,15 @@ table th[class*="col-"] {
   }
   #caseStudy{
     padding-left: 15%;
+    padding-right:10%;
   }
   #caseStudySubtext{
-    max-width: 100%;
+    max-width: 100%;  
+    font-size: 13px;
+    line-height: 1.5!important;
+    font-weight: 600;
+    color: white;
+    opacity: 1;
   }
    #caseStudyHeadline{
     max-width: 90%;

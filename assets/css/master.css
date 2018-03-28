@@ -11283,7 +11283,10 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     padding-bottom: 0;
   }
   .paddingHomeEvents {
-    padding-top: 0!important;
+    /*padding-top: 0!important;*/
+  }
+  #infoSubheadline{
+    font-size: 1.2em!important;
   }
   .albumsHome .name {
     margin-top: -2rem;

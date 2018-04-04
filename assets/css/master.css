@@ -39,7 +39,7 @@
   max-height:240px;
 }
 .infoDetail{
-  font-size: 1.8em; line-height: 28px; color: black;
+  font-size: 1.4em; line-height: 25px; color: black;
 }
 .infoDetail:hover{
   cursor: default;

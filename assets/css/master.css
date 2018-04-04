@@ -45,10 +45,14 @@
   cursor: default;
 }
 #caseStudySubtext{
+  font-size: 1.4em;
+  color: white;
   max-width: 50%;
 }
 #caseStudyHeadline{
   max-width: 60%;
+  color:gray;
+  font-size: 2.8em;
 }
 .padding {
   padding: 18rem 0;

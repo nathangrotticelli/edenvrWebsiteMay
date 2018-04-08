@@ -36,10 +36,10 @@
   transition: all 0.2s ease-in-out;
 }
 #topInfoDetail{
-  max-height:240px;
+  max-height:105px;
 }
 .infoDetail{
-  font-size: 1.4em; line-height: 25px; color: black;
+  font-size: 1.35em; line-height: 25px; color: white;
 }
 .infoDetail:hover{
   cursor: default;
@@ -74,7 +74,7 @@
   padding-top: 10rem;
 }
 .paddingHomeEvents {
-  padding: 13rem 0;
+  padding: 8rem 0;
   /*padding-top: 15.5rem;*/
 }
 .paddingShopSingle {

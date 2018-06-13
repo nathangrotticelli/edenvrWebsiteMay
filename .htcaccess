@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} ^edenvr.co$
+RewriteCond %{SERVER_PORT} ^443
+RewriteRule ^(.*)$ https://www.edenvr.co/$1 [R=301]
